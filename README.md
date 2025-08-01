@@ -7,6 +7,16 @@ The purpose is to experiment with Django’s features, including models, the ORM
 
 This repository is meant for testing, breaking, and learning. It is not a production-ready application.
 
+
+
+#Explination
+## Project Structure
+LFMS/
+├── LFMS/ # Project-level settings and configuration
+├── courses/ # API CRUD for course management
+├── myapp/ # YOUR TYPICAL MYAPP ... (A playground app for testing/learning)
+└── manage.py
+
 ## Tech Stack
 
 - Python
@@ -22,8 +32,9 @@ The project includes a basic API for managing course data. You can perform stand
 - `PUT    /api/courses/<pk>/` – Update an existing course by primary key
 - `DELETE /api/courses/<pk>/` – Delete a course by primary key
 
-## Packages?
+## Packages
 All packages are included within the requirments.txt. so, Kindly install them before testing
+
 
 
 
