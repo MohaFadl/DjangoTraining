@@ -5,7 +5,7 @@ The purpose is to experiment with Django’s features, including models, the ORM
 
 ## Purpose
 
-This repository is meant for testing, breaking, and learning. It is not a production-ready application.
+This repository is meant for testing, breaking, and learning. It is **not** a production-ready application.
 
 
 
@@ -34,6 +34,8 @@ The project includes a basic API for managing course data. You can perform stand
 
 ## Packages
 All packages are included within the requirments.txt. so, Kindly install them before testing
+
+
 
 
 
