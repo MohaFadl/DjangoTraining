@@ -1,6 +1,6 @@
 # Django Playground
 
-This is a personal learning project for exploring Django with SQL. 
+This is a personal learning project for exploring Django with PSQL. 
 The purpose is to experiment with Django’s features, including models, the ORM, raw SQL, migrations, and admin customization and much more!!!!!!!!!!!!
 
 ## Purpose
