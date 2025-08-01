@@ -12,10 +12,10 @@ This repository is meant for testing, breaking, and learning. It is not a produc
 #Explination
 ## Project Structure
 LFMS/
-├── LFMS/ # Project-level settings and configuration
-├── courses/ # API CRUD for course management
-├── myapp/ # YOUR TYPICAL MYAPP ... (A playground app for testing/learning)
-└── manage.py
+  LFMS/ # Project-level settings and configuration
+  courses/ # API CRUD for course management
+  myapp/ # YOUR TYPICAL MYAPP ... (A playground app for testing/learning)
+  manage.py
 
 ## Tech Stack
 
