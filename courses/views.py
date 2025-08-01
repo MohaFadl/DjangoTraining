@@ -6,7 +6,8 @@ from .serializers import CourseSerializer
 from django.shortcuts import get_object_or_404
 
 
-class CourseC(APIView):
+
+class CourseView(APIView):
     def get(self, request):
         courses = Course.objects.all()
         serializer = CourseSerializer(courses, many=True)
@@ -19,7 +20,7 @@ class CourseC(APIView):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-class CourseRUD(APIView):
+class CourseInstanceView(APIView):
     def get(self, request, pk):
         course = get_object_or_404(Course, course_code=pk)
         serializer = CourseSerializer(course)
